@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33565EF61F6EFB15003846E4 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33565EF51F6EFB15003846E4 /* AppUtility.swift */; };
+		33565EF71F6EFB15003846E4 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33565EF51F6EFB15003846E4 /* AppUtility.swift */; };
+		33565EF81F6EFB15003846E4 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33565EF51F6EFB15003846E4 /* AppUtility.swift */; };
+		338C7F1A1F698599007EB8DF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C7F191F698599007EB8DF /* User.swift */; };
+		338C7F1C1F69913D007EB8DF /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C7F1B1F69913D007EB8DF /* userProfileViewController.swift */; };
+		33E38C8B1F66E4DA00509C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E38C8A1F66E4DA00509C70 /* AppDelegate.swift */; };
+		33E38C8D1F66E4DA00509C70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E38C8C1F66E4DA00509C70 /* ViewController.swift */; };
+		33E38C901F66E4DA00509C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E38C8E1F66E4DA00509C70 /* Main.storyboard */; };
+		33E38C921F66E4DA00509C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E38C911F66E4DA00509C70 /* Assets.xcassets */; };
+		33E38C951F66E4DA00509C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E38C931F66E4DA00509C70 /* LaunchScreen.storyboard */; };
+		33E38CA01F66E4DA00509C70 /* Roommate_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E38C9F1F66E4DA00509C70 /* Roommate_LoginTests.swift */; };
+		33E38CAB1F66E4DA00509C70 /* Roommate_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E38CAA1F66E4DA00509C70 /* Roommate_LoginUITests.swift */; };
+		7AEAB6DDA8A650CEF751DF8B /* Pods_Roommate_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DB92FEF5A237C7F60C3E0E /* Pods_Roommate_Login.framework */; };
+		BE15FC54AB4EBC7A45AA4D44 /* Pods_Roommate_LoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72481FD15CCAA6D9A8D418D9 /* Pods_Roommate_LoginTests.framework */; };
+		C34431A7F5C9DEF9EB121849 /* Pods_Roommate_LoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E5B53F0EB7FED693A73125 /* Pods_Roommate_LoginUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E38C9C1F66E4DA00509C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E38C7F1F66E4DA00509C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E38C861F66E4DA00509C70;
+			remoteInfo = "Roommate-Login";
+		};
+		33E38CA71F66E4DA00509C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E38C7F1F66E4DA00509C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E38C861F66E4DA00509C70;
+			remoteInfo = "Roommate-Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F90AE114E73AB1F83146946 /* Pods-Roommate-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roommate-Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roommate-Login/Pods-Roommate-Login.release.xcconfig"; sourceTree = "<group>"; };
+		2D04B8C3ED3C54B57BE3809B /* Pods-Roommate-LoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roommate-LoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roommate-LoginTests/Pods-Roommate-LoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33565EF51F6EFB15003846E4 /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		338C7F191F698599007EB8DF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		338C7F1B1F69913D007EB8DF /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		33E38C871F66E4DA00509C70 /* Roommate-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roommate-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E38C8A1F66E4DA00509C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33E38C8C1F66E4DA00509C70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33E38C8F1F66E4DA00509C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E38C911F66E4DA00509C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E38C941F66E4DA00509C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E38C961F66E4DA00509C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E38C9B1F66E4DA00509C70 /* Roommate-LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roommate-LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E38C9F1F66E4DA00509C70 /* Roommate_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roommate_LoginTests.swift; sourceTree = "<group>"; };
+		33E38CA11F66E4DA00509C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E38CA61F66E4DA00509C70 /* Roommate-LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roommate-LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E38CAA1F66E4DA00509C70 /* Roommate_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roommate_LoginUITests.swift; sourceTree = "<group>"; };
+		33E38CAC1F66E4DA00509C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A1650B93F07FEFB6F3830B /* Pods-Roommate-LoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roommate-LoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roommate-LoginTests/Pods-Roommate-LoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		53DB92FEF5A237C7F60C3E0E /* Pods_Roommate_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roommate_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD0493B1E049EA099E2119C /* Pods-Roommate-LoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roommate-LoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roommate-LoginUITests/Pods-Roommate-LoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72481FD15CCAA6D9A8D418D9 /* Pods_Roommate_LoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roommate_LoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88874FF2CCCD8C566AE9562F /* Pods-Roommate-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roommate-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roommate-Login/Pods-Roommate-Login.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E5B53F0EB7FED693A73125 /* Pods_Roommate_LoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roommate_LoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E0F33D4D4C252DDC9798C8 /* Pods-Roommate-LoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roommate-LoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roommate-LoginUITests/Pods-Roommate-LoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E38C841F66E4DA00509C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEAB6DDA8A650CEF751DF8B /* Pods_Roommate_Login.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E38C981F66E4DA00509C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE15FC54AB4EBC7A45AA4D44 /* Pods_Roommate_LoginTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E38CA31F66E4DA00509C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34431A7F5C9DEF9EB121849 /* Pods_Roommate_LoginUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232E33B4FAE0944CCC99746A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53DB92FEF5A237C7F60C3E0E /* Pods_Roommate_Login.framework */,
+				72481FD15CCAA6D9A8D418D9 /* Pods_Roommate_LoginTests.framework */,
+				B3E5B53F0EB7FED693A73125 /* Pods_Roommate_LoginUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33E38C7E1F66E4DA00509C70 = {
+			isa = PBXGroup;
+			children = (
+				33E38C891F66E4DA00509C70 /* Roommate-Login */,
+				33E38C9E1F66E4DA00509C70 /* Roommate-LoginTests */,
+				33E38CA91F66E4DA00509C70 /* Roommate-LoginUITests */,
+				33E38C881F66E4DA00509C70 /* Products */,
+				DFC93B9C029DEFE11CB8025A /* Pods */,
+				232E33B4FAE0944CCC99746A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33E38C881F66E4DA00509C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E38C871F66E4DA00509C70 /* Roommate-Login.app */,
+				33E38C9B1F66E4DA00509C70 /* Roommate-LoginTests.xctest */,
+				33E38CA61F66E4DA00509C70 /* Roommate-LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E38C891F66E4DA00509C70 /* Roommate-Login */ = {
+			isa = PBXGroup;
+			children = (
+				33E38C8A1F66E4DA00509C70 /* AppDelegate.swift */,
+				33E38C8C1F66E4DA00509C70 /* ViewController.swift */,
+				338C7F191F698599007EB8DF /* User.swift */,
+				33E38C8E1F66E4DA00509C70 /* Main.storyboard */,
+				33E38C911F66E4DA00509C70 /* Assets.xcassets */,
+				33E38C931F66E4DA00509C70 /* LaunchScreen.storyboard */,
+				33E38C961F66E4DA00509C70 /* Info.plist */,
+				338C7F1B1F69913D007EB8DF /* userProfileViewController.swift */,
+				33565EF51F6EFB15003846E4 /* AppUtility.swift */,
+			);
+			path = "Roommate-Login";
+			sourceTree = "<group>";
+		};
+		33E38C9E1F66E4DA00509C70 /* Roommate-LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E38C9F1F66E4DA00509C70 /* Roommate_LoginTests.swift */,
+				33E38CA11F66E4DA00509C70 /* Info.plist */,
+			);
+			path = "Roommate-LoginTests";
+			sourceTree = "<group>";
+		};
+		33E38CA91F66E4DA00509C70 /* Roommate-LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E38CAA1F66E4DA00509C70 /* Roommate_LoginUITests.swift */,
+				33E38CAC1F66E4DA00509C70 /* Info.plist */,
+			);
+			path = "Roommate-LoginUITests";
+			sourceTree = "<group>";
+		};
+		DFC93B9C029DEFE11CB8025A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88874FF2CCCD8C566AE9562F /* Pods-Roommate-Login.debug.xcconfig */,
+				1F90AE114E73AB1F83146946 /* Pods-Roommate-Login.release.xcconfig */,
+				2D04B8C3ED3C54B57BE3809B /* Pods-Roommate-LoginTests.debug.xcconfig */,
+				36A1650B93F07FEFB6F3830B /* Pods-Roommate-LoginTests.release.xcconfig */,
+				6FD0493B1E049EA099E2119C /* Pods-Roommate-LoginUITests.debug.xcconfig */,
+				B6E0F33D4D4C252DDC9798C8 /* Pods-Roommate-LoginUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E38C861F66E4DA00509C70 /* Roommate-Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E38CAF1F66E4DA00509C70 /* Build configuration list for PBXNativeTarget "Roommate-Login" */;
+			buildPhases = (
+				EB99C311B2003C64C9273B5D /* [CP] Check Pods Manifest.lock */,
+				33E38C831F66E4DA00509C70 /* Sources */,
+				33E38C841F66E4DA00509C70 /* Frameworks */,
+				33E38C851F66E4DA00509C70 /* Resources */,
+				A45B0ABE122AF5CDCAE250FA /* [CP] Embed Pods Frameworks */,
+				81EC8CAFF1AA9B10E003438A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roommate-Login";
+			productName = "Roommate-Login";
+			productReference = 33E38C871F66E4DA00509C70 /* Roommate-Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E38C9A1F66E4DA00509C70 /* Roommate-LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E38CB21F66E4DA00509C70 /* Build configuration list for PBXNativeTarget "Roommate-LoginTests" */;
+			buildPhases = (
+				D18EFF92689974872E6851C7 /* [CP] Check Pods Manifest.lock */,
+				33E38C971F66E4DA00509C70 /* Sources */,
+				33E38C981F66E4DA00509C70 /* Frameworks */,
+				33E38C991F66E4DA00509C70 /* Resources */,
+				BDA746369FE05E32EEEAD5CC /* [CP] Embed Pods Frameworks */,
+				5C3EF9230D7FF88DE2227AF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E38C9D1F66E4DA00509C70 /* PBXTargetDependency */,
+			);
+			name = "Roommate-LoginTests";
+			productName = "Roommate-LoginTests";
+			productReference = 33E38C9B1F66E4DA00509C70 /* Roommate-LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E38CA51F66E4DA00509C70 /* Roommate-LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E38CB51F66E4DA00509C70 /* Build configuration list for PBXNativeTarget "Roommate-LoginUITests" */;
+			buildPhases = (
+				D3584535B2A1F165C8B66D8A /* [CP] Check Pods Manifest.lock */,
+				33E38CA21F66E4DA00509C70 /* Sources */,
+				33E38CA31F66E4DA00509C70 /* Frameworks */,
+				33E38CA41F66E4DA00509C70 /* Resources */,
+				A538B834B6033A5F8678F2AC /* [CP] Embed Pods Frameworks */,
+				6DCE9A796CDC8EA3726320B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E38CA81F66E4DA00509C70 /* PBXTargetDependency */,
+			);
+			name = "Roommate-LoginUITests";
+			productName = "Roommate-LoginUITests";
+			productReference = 33E38CA61F66E4DA00509C70 /* Roommate-LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E38C7F1F66E4DA00509C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sean McCarthy";
+				TargetAttributes = {
+					33E38C861F66E4DA00509C70 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XSU4PVJ4R;
+						ProvisioningStyle = Automatic;
+					};
+					33E38C9A1F66E4DA00509C70 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XSU4PVJ4R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33E38C861F66E4DA00509C70;
+					};
+					33E38CA51F66E4DA00509C70 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XSU4PVJ4R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33E38C861F66E4DA00509C70;
+					};
+				};
+			};
+			buildConfigurationList = 33E38C821F66E4DA00509C70 /* Build configuration list for PBXProject "Roommate-Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E38C7E1F66E4DA00509C70;
+			productRefGroup = 33E38C881F66E4DA00509C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E38C861F66E4DA00509C70 /* Roommate-Login */,
+				33E38C9A1F66E4DA00509C70 /* Roommate-LoginTests */,
+				33E38CA51F66E4DA00509C70 /* Roommate-LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E38C851F66E4DA00509C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E38C951F66E4DA00509C70 /* LaunchScreen.storyboard in Resources */,
+				33E38C921F66E4DA00509C70 /* Assets.xcassets in Resources */,
+				33E38C901F66E4DA00509C70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E38C991F66E4DA00509C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E38CA41F66E4DA00509C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C3EF9230D7FF88DE2227AF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roommate-LoginTests/Pods-Roommate-LoginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DCE9A796CDC8EA3726320B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roommate-LoginUITests/Pods-Roommate-LoginUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81EC8CAFF1AA9B10E003438A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roommate-Login/Pods-Roommate-Login-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45B0ABE122AF5CDCAE250FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roommate-Login/Pods-Roommate-Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A538B834B6033A5F8678F2AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roommate-LoginUITests/Pods-Roommate-LoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA746369FE05E32EEEAD5CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roommate-LoginTests/Pods-Roommate-LoginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18EFF92689974872E6851C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roommate-LoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3584535B2A1F165C8B66D8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roommate-LoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB99C311B2003C64C9273B5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roommate-Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E38C831F66E4DA00509C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E38C8D1F66E4DA00509C70 /* ViewController.swift in Sources */,
+				338C7F1C1F69913D007EB8DF /* userProfileViewController.swift in Sources */,
+				33565EF61F6EFB15003846E4 /* AppUtility.swift in Sources */,
+				33E38C8B1F66E4DA00509C70 /* AppDelegate.swift in Sources */,
+				338C7F1A1F698599007EB8DF /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E38C971F66E4DA00509C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33565EF71F6EFB15003846E4 /* AppUtility.swift in Sources */,
+				33E38CA01F66E4DA00509C70 /* Roommate_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E38CA21F66E4DA00509C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33565EF81F6EFB15003846E4 /* AppUtility.swift in Sources */,
+				33E38CAB1F66E4DA00509C70 /* Roommate_LoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E38C9D1F66E4DA00509C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E38C861F66E4DA00509C70 /* Roommate-Login */;
+			targetProxy = 33E38C9C1F66E4DA00509C70 /* PBXContainerItemProxy */;
+		};
+		33E38CA81F66E4DA00509C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E38C861F66E4DA00509C70 /* Roommate-Login */;
+			targetProxy = 33E38CA71F66E4DA00509C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E38C8E1F66E4DA00509C70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E38C8F1F66E4DA00509C70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E38C931F66E4DA00509C70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E38C941F66E4DA00509C70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E38CAD1F66E4DA00509C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33E38CAE1F66E4DA00509C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E38CB01F66E4DA00509C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88874FF2CCCD8C566AE9562F /* Pods-Roommate-Login.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XSU4PVJ4R;
+				INFOPLIST_FILE = "Roommate-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cst495.Roommate-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		33E38CB11F66E4DA00509C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F90AE114E73AB1F83146946 /* Pods-Roommate-Login.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XSU4PVJ4R;
+				INFOPLIST_FILE = "Roommate-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cst495.Roommate-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		33E38CB31F66E4DA00509C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D04B8C3ED3C54B57BE3809B /* Pods-Roommate-LoginTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XSU4PVJ4R;
+				INFOPLIST_FILE = "Roommate-LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cst495.Roommate-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roommate-Login.app/Roommate-Login";
+			};
+			name = Debug;
+		};
+		33E38CB41F66E4DA00509C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A1650B93F07FEFB6F3830B /* Pods-Roommate-LoginTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XSU4PVJ4R;
+				INFOPLIST_FILE = "Roommate-LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cst495.Roommate-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roommate-Login.app/Roommate-Login";
+			};
+			name = Release;
+		};
+		33E38CB61F66E4DA00509C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD0493B1E049EA099E2119C /* Pods-Roommate-LoginUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3XSU4PVJ4R;
+				INFOPLIST_FILE = "Roommate-LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cst495.Roommate-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Roommate-Login";
+			};
+			name = Debug;
+		};
+		33E38CB71F66E4DA00509C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E0F33D4D4C252DDC9798C8 /* Pods-Roommate-LoginUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3XSU4PVJ4R;
+				INFOPLIST_FILE = "Roommate-LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cst495.Roommate-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Roommate-Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E38C821F66E4DA00509C70 /* Build configuration list for PBXProject "Roommate-Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E38CAD1F66E4DA00509C70 /* Debug */,
+				33E38CAE1F66E4DA00509C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E38CAF1F66E4DA00509C70 /* Build configuration list for PBXNativeTarget "Roommate-Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E38CB01F66E4DA00509C70 /* Debug */,
+				33E38CB11F66E4DA00509C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E38CB21F66E4DA00509C70 /* Build configuration list for PBXNativeTarget "Roommate-LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E38CB31F66E4DA00509C70 /* Debug */,
+				33E38CB41F66E4DA00509C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E38CB51F66E4DA00509C70 /* Build configuration list for PBXNativeTarget "Roommate-LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E38CB61F66E4DA00509C70 /* Debug */,
+				33E38CB71F66E4DA00509C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33E38C7F1F66E4DA00509C70 /* Project object */;
+}

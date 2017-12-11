@@ -1,0 +1,2 @@
+Github repo for cocoapod: https://github.com/smccarthy0426/FantasticView
+Github repo for project: https://github.com/smccarthy0426/495podTesting
